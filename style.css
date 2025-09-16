@@ -64,6 +64,7 @@ main {
 @media (max-width: 800px) {
     .content-wrapper {
         max-width: 90%;
+        margin: 10px auto;
     }
     header {
         padding: 10px 0;
