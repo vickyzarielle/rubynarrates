@@ -81,10 +81,6 @@ main {
         max-width: 100%;  /* increase max-width for small screens */
         margin: 0 0 20px 0; /* center horizontally, with some bottom margin */
     }
-    main {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
    .pagination-nav a {
         padding: 6px 12px; /* smaller padding for mobile */
         margin: 0 8px;     /* optionally adjust margin too */
