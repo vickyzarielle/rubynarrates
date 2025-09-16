@@ -217,6 +217,9 @@ video {
         margin: 0 8px;     /* optionally adjust margin too */
         font-size: 0.9em;  /* optional: smaller text on mobile */
     }
+    .centered-section {
+        margin-bottom: 20px; /* Adds 20px space below each section */
+    }
     section {
         margin-bottom: 20px; /* Adds 20px space below each section */
     }
