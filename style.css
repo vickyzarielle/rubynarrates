@@ -80,6 +80,7 @@ main {
     .centered-img {
         max-width: 100%;  /* increase max-width for small screens */
         margin: 0 0 20px 0; /* center horizontally, with some bottom margin */
+        padding: 0
     }
 }
 img {
