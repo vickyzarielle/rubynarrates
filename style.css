@@ -75,9 +75,8 @@ main {
     nav ul {
         gap: 20px;         /* smaller gap on small screens */
     }
-    img {
+    img:not(.centered-img):not(.social-icon) {
         max-width: 40%;       /* make image larger on small screens */
-        margin: 0 0 0 0;      /* space around the image: top | right | bottom | left */ 
     }
     /* video { */
         /* max-width: 40%; */      /* make videos larger on small screens */
@@ -92,7 +91,7 @@ main {
         font-size: 0.9em;  /* optional: smaller text on mobile */
     }
 }
-img {
+img:not(.centered-img):not(.social-icon) {
     float: left;      /* or right */
     max-width: 30%;
     height: auto;
