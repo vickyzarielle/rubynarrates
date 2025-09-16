@@ -69,7 +69,7 @@ main {
       max-width: 100%; /* make nav wider on small screens */
     }
     nav ul {
-        gap: 15px;         /* smaller gap on small screens */
+        gap: 20px;         /* smaller gap on small screens */
     }
     img {
         max-width: 40%;       /* make image larger on small screens */
