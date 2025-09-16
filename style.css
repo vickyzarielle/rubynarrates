@@ -63,7 +63,6 @@ main {
 }
 @media (max-width: 800px) {
     .content-wrapper {
-        padding: 5px; /* or 0 */
         max-width: 90%;
     }
     header nav {
@@ -82,8 +81,10 @@ main {
         max-width: 100%;  /* increase max-width for small screens */
         margin: 0 0 20px 0; /* center horizontally, with some bottom margin */
         padding: 0
-        float: none;  /* <- add this to cancel float: left */
-        display: block; /* keep it block so it centers properly */
+    }
+    main {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 img {
