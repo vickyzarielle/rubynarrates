@@ -156,7 +156,6 @@ video {
   text-align: center;
   margin-top: 40px;
 }
-
 .pagination-nav a {
   margin: 0 10px;
   padding: 10px 20px;
@@ -167,14 +166,20 @@ video {
   font-weight: bold;
   clear: both;    /* Starts on a new line, below any floated images / floated elements */
 }
-
 .pagination-nav a:hover {
   background-color: #ddd;
 }
-
 .pagination-nav a.disabled {
   pointer-events: none;
   opacity: 0.5;
+}
+/* Remove left margin on first button */
+.pagination-nav a:first-child {
+  margin-left: 0;
+}
+/* Remove right margin on last button */
+.pagination-nav a:last-child {
+  margin-right: 0;
 }
 
 /* Only target the social icons */
