@@ -13,17 +13,24 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    padding: 20px 15px; /* 20px top/bottom, 15px left/right */
+    /*padding: 20px 15px;*/ /* 20px top/bottom, 15px left/right */
+    padding: 20px 0;
+}
+header nav {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 0 15px;  /* add horizontal padding */
+    gap: 40px;           /* 40px space between nav items on desktop */
+    padding: 0; /*padding: 0 15px;*/ /* add horizontal padding */
     display: flex;
     justify-content: center;
 }
 nav ul li {
-    margin: 0 20px;
+    /*margin: 0 15px;*/ /* Remove margin here since gap handles spacing */
 }
 nav ul li a {
     color: #fff7f3;
@@ -58,6 +65,9 @@ main {
     .content-wrapper {
         max-width: 90%;
     }
+    nav ul {
+        gap: 15px;         /* smaller gap on small screens */
+    }
 }
 img {
     float: left;      /* or right */
@@ -68,10 +78,10 @@ img {
 }
 @media (max-width: 800px) {
     img {
-        max-width: 40%;       /* make image bigger on small screens */
+        max-width: 40%;       /* make image smaller on small screens */
     }
     /* video { */
-        /* max-width: 40%; */      /* make videos bigger on small screens */
+        /* max-width: 40%; */      /* make videos smaller on small screens */
     /* } */
 }
 .centered-img {
