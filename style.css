@@ -1,0 +1,199 @@
+
+body {
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Georgia', serif;
+    background-color: #fff7f3; /* warm cream */
+    color: #3a2b2b; /* soft brown */
+    line-height: 1.5;
+}
+header {
+    background-color: #e9a1b0; /* rose pink */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #fff7f3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+nav ul li a:hover {
+  color: #c89b3c; /* gold accent */
+}
+main {
+    padding: 80px 20px 40px; /* to account for fixed header */
+    /* Three values: First applies to top; second applies to left and right; third applies to bottom. */
+}
+.content-wrapper {
+    background: #ffffff;
+    max-width: 60%; /* 60% of the parent/container width */
+    /*margin: 0 auto;*/
+    line-height: 1.5;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #e9a1b0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(233, 161, 176, 0.3);
+}
+.content-wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 800px) {
+    .content-wrapper {
+        max-width: 90%;
+    }
+}
+img {
+    float: left;      /* or right */
+    max-width: 30%;
+    height: auto;
+    /*margin-bottom: 20px;*/
+    margin: 0 15px 15px 0; /* space around the image: top | right | bottom | left */
+}
+@media (max-width: 800px) {
+    img {
+        max-width: 40%;       /* make image bigger on small screens */
+    }
+    /* video { */
+        /* max-width: 40%; */      /* make videos bigger on small screens */
+    /* } */
+}
+.centered-img {
+    display: block;
+    margin: 0 auto 20px auto; /* center horizontally, with some bottom margin */
+    float: none;              /* override float from default img */
+    max-width: 80%;           /* optional: override width for centered version */
+}
+@media (max-width: 800px) {
+    .centered-img {
+        max-width: 100%;  /* increase max-width for small screens */
+    }
+}
+
+.buy-button {
+    background: #c89b3c; /* gold accent */
+    color: #fff7f3;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.buy-button:hover {
+  background: #6d3b47; /* plum */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e9a1b0;
+    color: #fff7f3;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+section {
+    margin-bottom: 40px; /* Adds 40px space below each section */
+}
+.centered-section {
+    text-align: center;
+    margin-bottom: 40px; /* Adds 40px space below each section */
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+video p {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+video h3 {
+  margin-top: 0.3em;    /* reduce top space */
+  margin-bottom: 0.3em; /* reduce bottom space */
+}
+.hashtags {
+  color: #555;
+  font-size: 0.9em;
+}
+video {
+  width: 100%;
+  display: inline-block;       /* Allow video to sit inline with text */
+  /* max-width: 30%; */
+  height: auto;
+  margin: 0 15px 15px 0; /* space around the image: top | right | bottom | left */
+
+  max-height: 480px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.video-block {
+  display: block; /* Ensures the element takes up the full width */
+  /* Ensures that the next element (e.g., text) will be below it (and not next to it). */
+  border-bottom: 1px solid #ccc;  /* light gray divider line */
+  padding-bottom: 1.5em;            /* space below the video block content */
+  margin-bottom: 2.5em;             /* space between video blocks */
+}
+/* Optional: Remove the divider line after the last video block
+.video-block:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}*/
+
+
+.pagination-nav {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pagination-nav a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.pagination-nav a:hover {
+  background-color: #ddd;
+}
+
+.pagination-nav a.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Only target the social icons */
+.social-icon {
+  float: none; /* Override the global img float */
+  display: inline-block; /* Necessary for spacing and layout */
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  vertical-align: middle;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+}
