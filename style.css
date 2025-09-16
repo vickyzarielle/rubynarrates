@@ -141,8 +141,8 @@ video {
   display: block; /* Ensures the element takes up the full width */
   /* Ensures that the next element (e.g., text) will be below it (and not next to it). */
   border-bottom: 1px solid #ccc;  /* light gray divider line */
-  padding-bottom: 1.5em;            /* space below the video block content */
-  margin-bottom: 2.5em;             /* space between video blocks */
+  padding-bottom: 0.5em;            /* space below the video block content */
+  margin-bottom: 1.5em;             /* space between video blocks */
 }
 /* Optional: Remove the divider line after the last video block
 .video-block:last-of-type {
