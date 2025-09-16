@@ -65,8 +65,11 @@ main {
     .content-wrapper {
         max-width: 90%;
     }
+    header {
+        padding: 10px 0;
+    }
     header nav {
-      max-width: 100%; /* make nav wider on small screens */
+        max-width: 100%; /* make nav wider on small screens */
     }
     nav ul {
         gap: 20px;         /* smaller gap on small screens */
