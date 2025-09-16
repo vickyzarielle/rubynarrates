@@ -90,6 +90,13 @@ main {
         margin: 0 8px;     /* optionally adjust margin too */
         font-size: 0.9em;  /* optional: smaller text on mobile */
     }
+    section {
+        margin-bottom: 20px; /* Adds 20px space below each section */
+    }
+    footer {
+        padding: 10px;
+        margin-top: 20px;
+    }
 }
 img:not(.centered-img):not(.social-icon) {
     float: left;      /* or right */
