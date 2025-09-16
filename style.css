@@ -233,7 +233,7 @@ video {
    .pagination-nav a {
         padding: 6px 12px; /* smaller padding for mobile */
         margin: 0;     /* optionally adjust margin too */
-        font-size: 0.9em;  /* optional: smaller text on mobile */
+        font-size: 0.8em;  /* optional: smaller text on mobile */
     }
     .centered-section {
         margin-bottom: 20px; /* Adds 20px space below each section */
