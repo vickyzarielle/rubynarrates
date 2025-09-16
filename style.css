@@ -165,6 +165,7 @@ video {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  clear: both;    /* Starts on a new line, below any floated images / floated elements */
 }
 
 .pagination-nav a:hover {
