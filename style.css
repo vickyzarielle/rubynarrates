@@ -78,8 +78,8 @@ main {
         /* max-width: 40%; */      /* make videos larger on small screens */
     /* } */
     .centered-img {
-        width: 100%;
         max-width: 100%;  /* increase max-width for small screens */
+        margin: 0 0 20px 0; /* center horizontally, with some bottom margin */
     }
 }
 img {
