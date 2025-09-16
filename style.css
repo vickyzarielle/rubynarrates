@@ -65,8 +65,20 @@ main {
     .content-wrapper {
         max-width: 90%;
     }
+    header nav {
+      max-width: 90%; /* make nav wider on small screens */
+    }
     nav ul {
         gap: 15px;         /* smaller gap on small screens */
+    }
+    img {
+        max-width: 40%;       /* make image larger on small screens */
+    }
+    /* video { */
+        /* max-width: 40%; */      /* make videos larger on small screens */
+    /* } */
+    .centered-img {
+        max-width: 100%;  /* increase max-width for small screens */
     }
 }
 img {
@@ -76,25 +88,13 @@ img {
     /*margin-bottom: 20px;*/
     margin: 0 15px 15px 0; /* space around the image: top | right | bottom | left */
 }
-@media (max-width: 800px) {
-    img {
-        max-width: 40%;       /* make image smaller on small screens */
-    }
-    /* video { */
-        /* max-width: 40%; */      /* make videos smaller on small screens */
-    /* } */
-}
 .centered-img {
     display: block;
     margin: 0 auto 20px auto; /* center horizontally, with some bottom margin */
     float: none;              /* override float from default img */
     max-width: 80%;           /* optional: override width for centered version */
 }
-@media (max-width: 800px) {
-    .centered-img {
-        max-width: 100%;  /* increase max-width for small screens */
-    }
-}
+
 
 .buy-button {
     background: #c89b3c; /* gold accent */
