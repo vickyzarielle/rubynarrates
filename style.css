@@ -71,9 +71,6 @@ main {
     nav ul {
         gap: 20px;         /* smaller gap on small screens */
     }
-    nav ul li a {
-        font-size: 1em; /* or even smaller */
-    }
     img {
         max-width: 40%;       /* make image larger on small screens */
     }
