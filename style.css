@@ -66,7 +66,7 @@ main {
         max-width: 90%;
     }
     header nav {
-      max-width: 90%; /* make nav wider on small screens */
+      max-width: 100%; /* make nav wider on small screens */
     }
     nav ul {
         gap: 15px;         /* smaller gap on small screens */
