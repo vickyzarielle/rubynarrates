@@ -246,4 +246,10 @@ video {
         margin-top: 20px;
         font-size: 0.8rem;
     }
+    .sale-badge {
+        font-size: 0.8rem;
+        padding: 10px 12px;
+        right: 25px;
+        top: 10px;
+    }
 }
