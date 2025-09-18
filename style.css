@@ -70,12 +70,10 @@ img:not(.centered-img):not(.social-icon) {
 }
 .centered-img {
     display: block;
-    margin: 20px auto 20px auto; /* center horizontally, with some bottom margin */
+    margin: 20px auto 0px auto; /* center horizontally, with no bottom margin */
     float: none;              /* override float from default img */
     max-width: 80%;           /* optional: override width for centered version */
 }
-
-
 .buy-button {
     background: #c89b3c; /* gold accent */
     color: #fff7f3;
@@ -239,7 +237,7 @@ video {
     /* } */
     .centered-img {
         max-width: 100%;  /* increase max-width for small screens */
-        margin: 20px 0 20px 0; /* center horizontally, with some bottom margin */
+        margin: 20px 0 0px 0; /* center horizontally, with no bottom margin */
     }
     .pagination-nav {
         gap: 10px;           /* gap between buttons */
